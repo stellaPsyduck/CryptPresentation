@@ -1,14 +1,14 @@
 \beamer@sectionintoc {1}{Introduction}{2}{0}{1}
-\beamer@subsectionintoc {1}{1}{What is Homomorphic Encryption?}{2}{0}{1}
-\beamer@subsectionintoc {1}{2}{Why are Lattices Helpful?}{3}{0}{1}
-\beamer@sectionintoc {2}{Introduction to Lattices}{5}{0}{2}
-\beamer@subsectionintoc {2}{1}{Lattice Definition}{6}{0}{2}
-\beamer@subsectionintoc {2}{2}{Challenging Problem}{7}{0}{2}
-\beamer@subsectionintoc {2}{3}{Issue of Bootstrapping}{8}{0}{2}
-\beamer@sectionintoc {3}{Learning with Errors}{9}{0}{3}
-\beamer@subsectionintoc {3}{1}{Problem}{10}{0}{3}
-\beamer@subsectionintoc {3}{2}{Relation to Lattices}{11}{0}{3}
-\beamer@sectionintoc {4}{Making the Homomorphic Encryption Algorithm}{12}{0}{4}
-\beamer@subsectionintoc {4}{1}{Defining the System}{13}{0}{4}
-\beamer@subsectionintoc {4}{2}{Example}{14}{0}{4}
-\beamer@subsectionintoc {4}{3}{Conclusion}{15}{0}{4}
+\beamer@subsectionintoc {1}{1}{Homomorphic Encryption}{2}{0}{1}
+\beamer@subsectionintoc {1}{2}{Relevancy to Lattices}{4}{0}{1}
+\beamer@sectionintoc {2}{Introduction to Lattices}{6}{0}{2}
+\beamer@subsectionintoc {2}{1}{Lattice Definition}{7}{0}{2}
+\beamer@subsectionintoc {2}{2}{Challenging Problem}{8}{0}{2}
+\beamer@subsectionintoc {2}{3}{Issue of Bootstrapping}{9}{0}{2}
+\beamer@sectionintoc {3}{Learning with Errors Problem}{10}{0}{3}
+\beamer@subsectionintoc {3}{1}{Problem}{11}{0}{3}
+\beamer@subsectionintoc {3}{2}{Relation to Lattices}{12}{0}{3}
+\beamer@sectionintoc {4}{Homomorphic Encryption Algorithm}{13}{0}{4}
+\beamer@subsectionintoc {4}{1}{Defining the System}{14}{0}{4}
+\beamer@subsectionintoc {4}{2}{Example}{15}{0}{4}
+\beamer@sectionintoc {5}{Conclusion}{16}{0}{5}

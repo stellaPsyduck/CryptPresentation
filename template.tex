@@ -47,21 +47,48 @@ Errors Problem }
 
 {\AtBeginSection{}
 \section{Introduction}}
-\subsection{What is Homomorphic Encryption?}
+\subsection{Homomorphic Encryption}
 
 \begin{frame}{Homomorphic Encryption} % Stella
-    \begin{itemize}
-        \item Math
-        \item Epic Application
-    \end{itemize}
+	Ability to apply transformations to encrypted data, without needing to decrypt. \\ 
+	%**Talk about application to stats and ai since the data can be hidden but the model can still be performed**
+	\vspace{0.5cm}
+	$\varepsilon$ is homomorphic for circuits in $C_{\varepsilon}$ if $\varepsilon$ is correct for $C_{\varepsilon}$ and
+	$\text{Decrypt}_{\varepsilon}$ can be expressed as a circuit $D_{\varepsilon}$ of size poly($\lambda$). \\
+			% So homomorphic equations have transformations (which are called circuits) on encrypted data but there's definitions on how much one can handle.
+		% Basic one is like RSA, the epslion is the encryption sscheme and this is essentially saying the scheme is properly homorphic if the encrypted and transformed 
+		% data is outputting the righ thing with some security level lambda. Important to note, this definition from our paper asks the Decrpytion to be represented as a circuit as well
+	\vspace{0.5cm}
+	
+	\begin{itemize}
+	\item \textbf{Encrpytion Scheme ($\varepsilon$)} KeyGen, Encrypt, Decrypt, Evaluate % Sounds familiar but not quite the same
+	\item RSA is not \textit{fully} HE, only HE
+	\end{itemize} 
+
+\end{frame}
+
+\begin{frame}{Formal Definition} % Stella
+	
+	\underline{Circuit:} Fancy way to show equations through a digraph. Each node are each binary operation for addition or multiplication. \\
+	**Add image for circuit**
+	\vspace{0.5cm}
+
+	\begin{itemize}
+	\item \textbf{Levelled Homomorphic Encryption: }$\varepsilon$ is homorphic for circuits up to a certain depth. Defined into families of $\varepsilon^{d}$ where d is the depth it can go. \\ % Explain depth w picture
+	\item \textbf{Fully Homomorphic Encryption: }$\varepsilon$ is homomorphic for all circuits
+	\end{itemize}
+	
 \end{frame}
 
 
 {\setbeamertemplate{subsection page}{}
-\subsection{Why are Lattices Helpful?}} % Stella
+\subsection{Relevancy to Lattices}} % Stella
 
-\begin{frame}{Lattices are Helpful}
-    **We use them to get this structure, and we walk you through that today**
+\begin{frame}{Relation to Lattices}
+    \begin{itemize}
+	\item The only Fully Homomorphic Encryption Scheme currently known
+	\item More theoretically cool than application cool (since operation complexity is often pre-known)
+	\end{itemize}
 \end{frame}
 
 \begin{frame} % Stella or Adil
@@ -99,7 +126,7 @@ Errors Problem }
     \end{itemize}
 \end{frame}
 
-\section{Learning with Errors} % Adil
+\section{Learning with Errors Problem} % Adil
 \subsection{Problem}
 
 \begin{frame}{What is this Problem?}
@@ -118,7 +145,7 @@ Errors Problem }
     \end{itemize}
 \end{frame}
 
-\section{Making the Homomorphic Encryption Algorithm}
+\section{Homomorphic Encryption Algorithm}
 
 \subsection{Defining the System} % Stella
 \begin{frame}{Defining the Encryption System}
@@ -133,7 +160,7 @@ Errors Problem }
 math
 \end{frame}
 
-\subsection{Conclusion} 
+\section{Conclusion} 
 \begin{frame}{Conclusion} % Adil
     Recap
     \begin{itemize}
