@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.25)  16 MAR 2026 00:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.25)  16 MAR 2026 18:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1210,11 +1210,11 @@ LaTeX Font Info:    Font shape `T1/cmss/m/it' in size <10.95> not available
 
 [8
 
-]
+] (./template.toc)
 
 [9
 
-] (./template.toc)
+]
 
 [10
 
@@ -1222,11 +1222,11 @@ LaTeX Font Info:    Font shape `T1/cmss/m/it' in size <10.95> not available
 
 [11
 
-]
+] (./template.toc)
 
 [12
 
-] (./template.toc)
+]
 
 [13
 
@@ -1262,18 +1262,18 @@ LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2022/07/14>
  ***********
 Package rerunfilecheck Info: File `template.out' has not changed.
-(rerunfilecheck)             Checksum: 950D869993646D5326AD73E9586B1277;2068.
+(rerunfilecheck)             Checksum: 1BCE54B050749B57AB6438B67B97D8D1;2135.
  ) 
 Here is how much of TeX's memory you used:
  29096 strings out of 473254
- 547203 string characters out of 5722070
- 957917 words of memory out of 5000000
+ 547205 string characters out of 5722070
+ 957919 words of memory out of 5000000
  51615 multiletter control sequences out of 15000+600000
  573094 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,20n,123p,790b,850s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfsi1000.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfss0800.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfss1200.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfsx1000.pfb>
-Output written on template.pdf (17 pages, 172542 bytes).
+Output written on template.pdf (17 pages, 172445 bytes).
 PDF statistics:
  1405 PDF objects out of 1440 (max. 8388607)
  941 compressed objects within 10 object streams
