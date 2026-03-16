@@ -10,7 +10,7 @@
 \author{Adil Baig \and Sabrina Haniff \and Stella Rovazzi}
 \title{Lattice-Based Cryptography and the Learning With
 Errors Problem }
-\subtitle{Applying this to build a Homomorphic Encryption}
+\subtitle{Applicstion to building a Fully Homomorphic Encryption}
 \institute{University of Guelph}
 \date{March 2026}
 \usepackage{CNU}
@@ -50,7 +50,7 @@ Errors Problem }
 \subsection{Homomorphic Encryption}
 
 \begin{frame}{Homomorphic Encryption} % Stella
-	Ability to apply transformations to encrypted data, without needing to decrypt. \\ 
+	Ability to apply transformations to encrypted data, without the need to decrypt. \\ 
 	%**Talk about application to stats and ai since the data can be hidden but the model can still be performed**
 	\vspace{0.5cm}
 	$\varepsilon$ is homomorphic for circuits in $C_{\varepsilon}$ if $\varepsilon$ is correct for $C_{\varepsilon}$ and
@@ -62,19 +62,19 @@ Errors Problem }
 	
 	\begin{itemize}
 	\item \textbf{Encrpytion Scheme ($\varepsilon$)} KeyGen, Encrypt, Decrypt, Evaluate % Sounds familiar but not quite the same
-	\item RSA is not \textit{fully} HE, only HE
+	\item RSA is not \textit{fully} HE, only \textit{levelled} HE
 	\end{itemize} 
 
 \end{frame}
 
 \begin{frame}{Formal Definition} % Stella
 	
-	\underline{Circuit:} Fancy way to show equations through a digraph. Each node are each binary operation for addition or multiplication. \\
+	\underline{Circuit:} Fancy way to show equations through a digraph. Each node is a binary operation for addition or multiplication. \\
 	**Add image for circuit**
 	\vspace{0.5cm}
 
 	\begin{itemize}
-	\item \textbf{Levelled Homomorphic Encryption: }$\varepsilon$ is homorphic for circuits up to a certain depth. Defined into families of $\varepsilon^{d}$ where d is the depth it can go. \\ % Explain depth w picture
+	\item \textbf{Levelled Homomorphic Encryption: }$\varepsilon$ is homorphic for circuits up to a certain depth. Defined into families of $\varepsilon^{\{d\}}$ where d is the depth. \\ % Explain depth w picture
 	\item \textbf{Fully Homomorphic Encryption: }$\varepsilon$ is homomorphic for all circuits
 	\end{itemize}
 	
@@ -86,12 +86,12 @@ Errors Problem }
 
 \begin{frame}{Relation to Lattices}
     \begin{itemize}
-	\item The only Fully Homomorphic Encryption Scheme currently known
-	\item More theoretically cool than application cool (since operation complexity is often pre-known)
+	\item Lattices are the only Fully Homomorphic Encryption Scheme currently known
+	\item Cooler in theory than in practice (since operation complexity is often pre-known)
 	\end{itemize}
 \end{frame}
 
-\begin{frame} % Stella or Adil
+\begin{frame} % Stella or Adil: Lattice Definition and why secure --> Fixing noise from lengthy lattices --> Making algebraic w LWE --> Putting togetrher
 \tableofcontents[sectionstyle=show,subsectionstyle=show/shaded/hide,subsubsectionstyle=show/shaded/hide]
 \end{frame}
 
@@ -104,7 +104,6 @@ Errors Problem }
     \begin{itemize}
     \item General Definition
     \item Quick important math things
-    \item Being able to define it as a ring
     \end{itemize}
 \end{frame}
 
@@ -117,22 +116,23 @@ Errors Problem }
     \end{itemize}
 \end{frame}
 
-\subsection{Issue of Bootstrapping} % Stella
+\subsection{Noisey Encryption} % Stella
 
-\begin{frame}{Issue of Bootstrapping}
+\begin{frame}{Noisy Encryption}
     \begin{itemize}
-    \item Generally what it is/does (feesible)
-    \item Why challenging problem is not bootstrappable
+    \item Being able to define it as a ring
+    \item Bootstrapping
+    \item Math repping 
+    \item 
     \end{itemize}
 \end{frame}
 
-\section{Learning with Errors Problem} % Adil
+\section{Learning with Errors Problem} % Adil 
 \subsection{Problem}
 
 \begin{frame}{What is this Problem?}
     \begin{itemize}
     \item Goal
-    \item Definition/way to solve
     \end{itemize}
 \end{frame}
 
@@ -140,8 +140,7 @@ Errors Problem }
 \begin{frame}{How is this helpful to us?}
     \begin{itemize}
     \item Worst/Average Case
-    \item it is bootstrappable
-    \item other comparing it to other challenging problem
+    \item Allow for the equations in the cipher text??
     \end{itemize}
 \end{frame}
 

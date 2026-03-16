@@ -4,7 +4,7 @@
 \beamer@sectionintoc {2}{Introduction to Lattices}{6}{0}{2}
 \beamer@subsectionintoc {2}{1}{Lattice Definition}{7}{0}{2}
 \beamer@subsectionintoc {2}{2}{Challenging Problem}{8}{0}{2}
-\beamer@subsectionintoc {2}{3}{Issue of Bootstrapping}{9}{0}{2}
+\beamer@subsectionintoc {2}{3}{Noisey Encryption}{9}{0}{2}
 \beamer@sectionintoc {3}{Learning with Errors Problem}{10}{0}{3}
 \beamer@subsectionintoc {3}{1}{Problem}{11}{0}{3}
 \beamer@subsectionintoc {3}{2}{Relation to Lattices}{12}{0}{3}
